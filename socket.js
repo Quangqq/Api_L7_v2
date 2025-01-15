@@ -2,7 +2,7 @@ const net = require('net');
 const exec = require('child_process').execSync;
 
 const socket_port = 8888;
-const socket_token = "daukute432000";
+const socket_token = "quangdev432000";
 const allowed_ips = ['192.53.114.92'];
 
 const server = net.createServer((socket) => {
