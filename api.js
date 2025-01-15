@@ -10,7 +10,7 @@ const api_port = 8888; // Cổng API
 const socket_token = "quangdev432000"; // Mã thông báo TCP Socket, sử dụng số/chữ cái ngẫu nhiên
 const api_key = "quangdev"; // Khóa API của bạn
 const domain_lock = true; // khóa api để chỉ được sử dụng từ một tên miền cụ thể
-const api_domain = 'l7.daukute.us'; // miền API của bạn (nếu domain_lock được đặt thành true)
+const api_domain = 'api-l7-v2.onrender.com'; // miền API của bạn (nếu domain_lock được đặt thành true)
 
 //dữ liệu cho API
 const servers = require('./servers.json');
